@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #005a9c;
+  --secondary-color: #00a4e3;
+  --font-color1: #fff;
+  --card-background: #f3f6f9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Removes DI's Custom padding */
+.contentcontainer#di-page-composer {
+  padding-top: 0px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
