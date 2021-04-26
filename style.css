@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #005a9c;
+  --primary-color: #007cc3;
   --secondary-color: #00a4e3;
   --font-color1: #fff;
   --card-background: #f3f6f9;
@@ -37,11 +37,55 @@ body {
 .row {
   display: flex;
   flex-direction: row;
-  margin-right: 0px !important;
-  margin-left: 0px !important;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+}
+
+#nav-section {
+  background-color: var(--primary-color);
+}
+
+.hero-img {
+  justify-content: flex-end;
+  width: 1280px;
+  height: 380px;
+  margin-right: 0;
+  margin-left: 200px;
+}
+
+.hero-box {
+  margin-left: 600px;
+}
+.hero-h1 {
+  font-size: 35px;
+  margin-left: 100px;
+}
+
+.hero-p {
+  margin-left: 100px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+  .hero-img {
+    margin-left: 80px;
+  }
+  .hero-h1 {
+    font-size: 35px;
+    width: 400px;
+    margin-left: 0px;
+  }
+  .hero-box {
+    margin-left: 0px;
+  }
+
+  .hero-p {
+    margin-left: 0px;
+  }
+
+  .hero-box {
+    margin-left: 160px;
+  }
 }
