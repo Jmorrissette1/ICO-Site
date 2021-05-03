@@ -3,6 +3,7 @@
   --secondary-color: #00a4e3;
   --font-color1: #fff;
   --card-background: #f3f6f9;
+  font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -10,11 +11,6 @@
 *::after {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-}
-
-/* Removes DI's Custom padding */
-.contentcontainer#di-page-composer {
-  padding-top: 0px;
 }
 
 a:hover {
@@ -48,6 +44,15 @@ body {
   background-color: var(--primary-color);
 }
 
+.nav-box {
+  justify-content: space-around;
+}
+
+.store-logo {
+  width: 200px;
+  margin-left: 320px;
+}
+
 .hero-img {
   justify-content: flex-end;
   width: 1280px;
@@ -60,17 +65,133 @@ body {
   margin-left: 600px;
 }
 .hero-h1 {
-  font-size: 35px;
+  line-height: 90%;
+  font-size: 32px;
   margin-left: 100px;
+  color: var(--primary-color);
+  margin-bottom: 0;
 }
 
 .hero-p {
   margin-left: 100px;
+  color: var(--primary-color);
 }
 
-@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+.hero-p2 {
+  color: var(--font-color1);
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.hero-tel {
+  color: var(--font-color1);
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+#offer-box {
+  margin-top: -5px;
+  padding-bottom: 20px;
+  background-color: var(--primary-color);
+}
+
+.card-img {
+  width: 300px;
+}
+
+.offer-card {
+  width: 400px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.offer-card-h {
+  color: var(--secondary-color);
+  margin-bottom: 0;
+}
+
+.offer-button-2 {
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 50px;
+  background-color: var(--primary-color);
+  color: var(--font-color1);
+  border: none;
+}
+
+#footer-section {
+  background-color: var(--primary-color);
+}
+
+.kbb-logo {
+  width: 200px;
+}
+
+.contact-us-h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--font-color1);
+  margin-bottom: 20px;
+  margin-left: -90px;
+}
+
+.offer-section-h {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.offer-button {
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  font: 600px;
+  background-color: #fff;
+  border: none;
+  color: var(--secondary-color);
+}
+.footer-text-box {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.footer-p1 {
+  font-weight: 700;
+  color: var(--font-color1);
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.footer-p2 {
+  color: var(--font-color1);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.offer-box-h1 {
+  color: var(--font-color1);
+  margin-bottom: 0;
+}
+.contact-p {
+  font-size: 20px;
+  color: var(--font-color1);
+  margin-left: -85px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.offer-box-p {
+  color: var(--font-color1);
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
   .hero-img {
-    margin-left: 80px;
+    max-width: 1160px;
   }
   .hero-h1 {
     font-size: 35px;
@@ -87,5 +208,53 @@ body {
 
   .hero-box {
     margin-left: 160px;
+  }
+
+  .store-logo {
+    margin-left: -180px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .hero-img {
+    max-width: 920px;
+    margin-left: 0px;
+  }
+  .hero-h1 {
+    font-size: 28px;
+    width: 400px;
+    margin-left: 0px;
+  }
+  .hero-box {
+    margin-left: 0px;
+  }
+
+  .hero-p {
+    margin-left: 0px;
+  }
+
+  .hero-box {
+    margin-left: 120px;
+  }
+  .store-logo {
+    margin-left: -90px;
+  }
+}
+
+@media only screen and (min-width: 1076px) and (max-width: 1280px) {
+  .hero-img {
+    width: 900px;
+    margin-left: 10px;
+  }
+  .hero-box {
+    margin-left: 0;
+  }
+  .hero-h1 {
+    font-size: 24px;
+    line-height: 100%;
+  }
+
+  .store-logo {
+    margin-left: 0px;
   }
 }
