@@ -289,11 +289,16 @@ body {
   }
   .hero-box-m {
     flex-direction: column;
+    width: 100vw;
   }
   .store-logo {
     width: 150px;
     margin-top: 20px;
-    margin-left: -150px;
+    margin-left: -170px;
+  }
+
+  .offer-card {
+    width: 280px;
   }
   .hero-box {
     margin-left: 0;
@@ -302,17 +307,17 @@ body {
     margin-left: 20px;
   }
   .hero-p2 {
-    margin-left: -65px;
+    margin-left: -100px;
   }
 
   .hero-tel {
     margin-top: 0;
-    margin-left: -115px;
+    margin-left: -65px;
     font-size: 20px;
   }
 
   .hero-h1 {
-    margin-left: 35px;
+    margin-left: 30px;
     font-size: 18px;
   }
 
@@ -336,8 +341,14 @@ body {
     font-size: 28px;
   }
 
+  #offer-box {
+    margin-top: 0;
+  }
   #offer-section {
     flex-direction: column;
+  }
+  .offer-card {
+    margin-left: 0;
   }
   .nav-box {
     flex-direction: column;
