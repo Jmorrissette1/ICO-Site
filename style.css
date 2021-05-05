@@ -286,6 +286,7 @@ body {
   }
   .hero-img-m {
     display: block;
+    width: 100vw;
   }
   .hero-box-m {
     flex-direction: column;
@@ -336,7 +337,9 @@ body {
   }
 
   .offer-box-h1 {
-    font-size: 20px;
+    font-size: 18px;
+    max-width: 200px;
+    text-align: center;
   }
   .offer-section-h {
     font-size: 28px;
