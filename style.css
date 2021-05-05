@@ -303,23 +303,24 @@ body {
   }
 
   .hero-box {
-    margin-left: 0;
+    margin-left: -95px;
   }
   .hero-p {
-    margin-left: 10px;
+    font-size: 12px;
+    margin-left: 5px;
   }
   .hero-p2 {
-    margin-left: -100px;
+    margin-left: -105px;
   }
 
   .hero-tel {
     margin-top: 0;
-    margin-left: -100px;
+    margin-left: -105px;
     font-size: 20px;
   }
 
   .hero-h1 {
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 18px;
   }
 
@@ -337,8 +338,8 @@ body {
   }
 
   .offer-box-h1 {
-    font-size: 18px;
-    max-width: 200px;
+    font-size: 22px;
+    max-width: 225px;
     text-align: center;
   }
   .offer-section-h {
@@ -375,5 +376,8 @@ body {
   }
   .footer-box {
     flex-direction: column;
+  }
+  .footer-p2 {
+    margin-left: 0;
   }
 }
