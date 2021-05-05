@@ -300,11 +300,12 @@ body {
   .offer-card {
     width: 280px;
   }
+
   .hero-box {
     margin-left: 0;
   }
   .hero-p {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .hero-p2 {
     margin-left: -100px;
@@ -312,12 +313,12 @@ body {
 
   .hero-tel {
     margin-top: 0;
-    margin-left: -65px;
+    margin-left: -100px;
     font-size: 20px;
   }
 
   .hero-h1 {
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 18px;
   }
 
