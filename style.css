@@ -371,13 +371,17 @@ body {
   }
 
   .contact-us-h2 {
-    font-size: 20px;
-    margin-left: 0;
+    font-size: 22px;
+    margin-left: 10px;
   }
   .footer-box {
     flex-direction: column;
   }
   .footer-p2 {
     margin-left: 0;
+  }
+  .contact-p {
+    font-size: 18px;
+    margin-left: 10px;
   }
 }
