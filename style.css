@@ -3,7 +3,7 @@
   --secondary-color: #00a4e3;
   --font-color1: #fff;
   --card-background: #f3f6f9;
-  font-family: "Roboto", sans-serif;
+  --font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -19,7 +19,6 @@ a {
 a:hover {
   cursor: pointer;
 }
-
 a:visited {
   text-decoration: none;
 }
@@ -61,14 +60,16 @@ body {
   margin-left: 320px;
 }
 
-.hero-img {
+.hero-img-d {
   justify-content: flex-end;
   width: 1280px;
   height: 380px;
   margin-right: 0;
   margin-left: 200px;
 }
-
+.hero-img-m {
+  display: none;
+}
 .hero-box {
   margin-left: 600px;
 }
@@ -121,6 +122,7 @@ body {
 .offer-button-2 {
   width: 180px;
   height: 40px;
+  font-weight: 600;
   font-size: 18px;
   margin-bottom: 50px;
   background-color: var(--primary-color);
@@ -132,7 +134,7 @@ body {
   background-color: var(--primary-color);
 }
 
-.kbb-logo {
+.kbb-logo-d {
   width: 200px;
 }
 
@@ -153,7 +155,7 @@ body {
   width: 180px;
   height: 40px;
   font-size: 18px;
-  font: 600px;
+  font-weight: 600px;
   background-color: #fff;
   border: none;
   color: var(--secondary-color);
@@ -197,8 +199,17 @@ body {
   margin-top: 0;
 }
 
+.ico-adaptive {
+  max-width: 100%;
+  height: auto;
+}
+
+.ico-mobile {
+  display: none;
+}
+
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-  .hero-img {
+  .hero-img-d {
     max-width: 1160px;
   }
   .hero-h1 {
@@ -224,7 +235,7 @@ body {
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
-  .hero-img {
+  .hero-img-d {
     max-width: 920px;
     margin-left: 0px;
   }
@@ -250,7 +261,7 @@ body {
 }
 
 @media only screen and (min-width: 1076px) and (max-width: 1280px) {
-  .hero-img {
+  .hero-img-d {
     width: 900px;
     margin-left: 10px;
   }
@@ -264,5 +275,90 @@ body {
 
   .store-logo {
     margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-img-d {
+    display: none;
+  }
+  .kbb-logo-d {
+    display: none;
+  }
+  .hero-img-m {
+    display: block;
+  }
+  .hero-box-m {
+    flex-direction: column;
+  }
+  .store-logo {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: -150px;
+  }
+  .hero-box {
+    margin-left: 0;
+  }
+  .hero-p {
+    margin-left: 20px;
+  }
+  .hero-p2 {
+    margin-left: -65px;
+  }
+
+  .hero-tel {
+    margin-top: 0;
+    margin-left: -115px;
+    font-size: 20px;
+  }
+
+  .hero-h1 {
+    margin-left: 35px;
+    font-size: 18px;
+  }
+
+  .card-box {
+    flex-direction: column;
+  }
+
+  .card-img {
+    width: 180px;
+  }
+  .offer-button {
+    width: 160px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .offer-box-h1 {
+    font-size: 20px;
+  }
+  .offer-section-h {
+    font-size: 28px;
+  }
+
+  #offer-section {
+    flex-direction: column;
+  }
+  .nav-box {
+    flex-direction: column;
+  }
+
+  .nav-box-2 {
+    flex-direction: column;
+  }
+  .ico-desktop {
+    display: none;
+  }
+
+  .ico-mobile {
+    display: block;
+  }
+
+  .contact-us-h2 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .footer-box {
+    flex-direction: column;
   }
 }
