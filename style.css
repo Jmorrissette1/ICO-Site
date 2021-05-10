@@ -384,4 +384,17 @@ body {
     font-size: 18px;
     margin-left: 10px;
   }
+
+  .footer-text-box {
+    margin: 0;
+  }
+  .footer-p1 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .footer-p2 {
+    margin-left: 10px;
+    max-width: 300px;
+    font-size: 18px;
+  }
 }
