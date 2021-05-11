@@ -71,7 +71,7 @@ body {
   display: none;
 }
 .hero-box {
-  margin-left: 600px;
+  margin-left: 0;
 }
 .hero-h1 {
   line-height: 90%;
