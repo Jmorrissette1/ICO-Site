@@ -21,6 +21,7 @@ a:hover {
 }
 a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 html,
@@ -57,7 +58,8 @@ body {
 
 .store-logo {
   width: 200px;
-  margin-left: 320px;
+
+  margin-left: 100px;
 }
 
 .hero-img-d {
@@ -71,18 +73,27 @@ body {
   display: none;
 }
 .hero-box {
-  margin-left: 600px;
+  margin-left: -500px;
 }
 .hero-h1 {
   line-height: 90%;
   font-size: 32px;
-  margin-left: 100px;
+  margin-top: 100px;
+  margin-left: -500px;
   color: var(--primary-color);
   margin-bottom: 0;
 }
 
+#hero-section {
+  background-image: url(Hero-D.png);
+  width: 100vw;
+  height: 34em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .hero-p {
-  margin-left: 100px;
+  margin-left: -500px;
   color: var(--primary-color);
 }
 
@@ -105,16 +116,18 @@ body {
 }
 
 .card-img {
-  width: 300px;
+  width: 320px;
 }
 
 .offer-card {
   width: 400px;
-  margin-left: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
   text-align: center;
 }
 
 .offer-card-h {
+  font-size: 22px;
   color: var(--secondary-color);
   margin-bottom: 0;
 }
@@ -125,6 +138,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 50px;
+  margin-top: 20px;
   background-color: var(--primary-color);
   color: var(--font-color1);
   border: none;
@@ -146,7 +160,7 @@ body {
   text-transform: uppercase;
   color: var(--font-color1);
   margin-bottom: 20px;
-  margin-left: -50px;
+  margin-left: -220px;
 }
 
 .offer-section-h {
@@ -192,7 +206,7 @@ body {
 .contact-p {
   font-size: 20px;
   color: var(--font-color1);
-  margin-left: -45px;
+  margin-left: -220px;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -210,23 +224,19 @@ body {
 .ico-mobile {
   display: none;
 }
-.hours-box {
-  margin-top: -50px;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  margin-left: 670px;
-}
 
 .hours-h {
-  margin-top: -20px;
+  margin-left: -220px;
   margin-bottom: 0;
   color: var(--font-color1);
 }
 
 .hours-p {
+  margin-left: -220px;
   margin-top: 0;
   color: var(--font-color1);
 }
+
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   .hero-img-d {
     max-width: 1160px;
