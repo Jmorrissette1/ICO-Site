@@ -335,6 +335,7 @@ body {
   .hero-h1 {
     font-size: 24px;
     line-height: 100%;
+    margin-right: 0;
   }
 
   .store-logo {
@@ -342,6 +343,31 @@ body {
   }
   .hours-box {
     margin-left: 10px;
+  }
+  .card-img {
+    width: 280px;
+  }
+  .offer-card {
+    margin-left: 25px;
+  }
+  .contact-us-h2 {
+    font-size: 28px;
+    margin-left: -60px;
+  }
+  .contact-p {
+    margin-left: -60px;
+  }
+
+  .hours-h {
+    margin-left: -60px;
+  }
+
+  .hours-p {
+    margin-left: -60px;
+  }
+
+  .kbb-logo-d {
+    width: 140px;
   }
 }
 
