@@ -244,18 +244,18 @@ body {
   .hero-h1 {
     font-size: 35px;
     width: 400px;
-    margin-left: 0px;
+    margin-left: -535px;
   }
   .hero-box {
     margin-left: 0px;
   }
 
   .hero-p {
-    margin-left: 0px;
+    margin-left: -535px;
   }
 
   .hero-box {
-    margin-left: 160px;
+    margin-left: -335px;
   }
 
   .store-logo {
@@ -271,17 +271,21 @@ body {
     max-width: 920px;
     margin-left: 0px;
   }
+  #hero-section {
+    height: 22em;
+  }
   .hero-h1 {
     font-size: 28px;
     width: 400px;
-    margin-left: 0px;
+    margin-left: -500px;
+    margin-right: 440px;
   }
   .hero-box {
-    margin-left: 0px;
+    margin-left: -0px;
   }
 
   .hero-p {
-    margin-left: 0px;
+    margin-left: -500px;
   }
 
   .hero-box {
@@ -293,12 +297,37 @@ body {
   .hours-box {
     margin-left: 120px;
   }
+  .offer-card {
+    width: 300px;
+    margin-left: 45px;
+    margin-right: 50px;
+  }
+  .card-box {
+    margin-right: 20px;
+  }
+  .contact-us-h2 {
+    margin-left: -160px;
+  }
+
+  .contact-p {
+    margin-left: -160px;
+  }
+  .hours-h {
+    margin-left: -160px;
+  }
+  .hours-p {
+    margin-left: -160px;
+  }
 }
 
 @media only screen and (min-width: 1076px) and (max-width: 1280px) {
   .hero-img-d {
     width: 900px;
     margin-left: 10px;
+  }
+
+  #hero-section {
+    height: 22em;
   }
   .hero-box {
     margin-left: 0;
