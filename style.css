@@ -85,12 +85,16 @@ body {
 }
 
 #hero-section {
-  background-image: url(Hero-D.png);
+  background-image: url(https://di-uploads-pod1.dealerinspire.com/haselwoodautogroup/uploads/2021/06/Hero-D.png);
   width: 100vw;
   height: 34em;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#hero-section-m {
+  display: none;
 }
 .hero-p {
   margin-left: -500px;
@@ -236,7 +240,9 @@ body {
   margin-top: 0;
   color: var(--font-color1);
 }
-
+#footer-m {
+  display: none;
+}
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
   .hero-img-d {
     max-width: 1160px;
@@ -377,7 +383,7 @@ body {
   }
 
   #hero-section {
-    background-image: url(Hero-T.png);
+    background-image: url(https://di-uploads-pod1.dealerinspire.com/haselwoodautogroup/uploads/2021/06/Hero-T.png);
     height: 20em;
   }
 
@@ -444,10 +450,15 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .hero-img-d {
+  #hero-section-m {
+    display: block;
+  }
+
+  .kbb-logo-d {
     display: none;
   }
-  .kbb-logo-d {
+
+  #hero-section {
     display: none;
   }
   .hero-img-m {
@@ -471,23 +482,30 @@ body {
   .hero-box {
     margin-left: -95px;
   }
+  .hero-m {
+    width: 100vw;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  }
   .hero-p {
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 110px;
   }
   .hero-p2 {
     margin-left: -105px;
   }
 
   .hero-tel {
-    margin-top: 0;
+    margin-top: -10px;
     margin-left: -105px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .hero-h1 {
-    margin-left: 5px;
-    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 26px;
   }
 
   .card-box {
@@ -513,13 +531,14 @@ body {
   }
 
   #offer-box {
-    margin-top: 0;
+    margin-top: -5px;
   }
   #offer-section {
     flex-direction: column;
   }
   .offer-card {
     margin-left: 0;
+    margin-right: 0;
   }
   .nav-box {
     flex-direction: column;
@@ -550,7 +569,14 @@ body {
     font-size: 18px;
     margin-left: 10px;
   }
+  #footer-section {
+    display: none;
+  }
 
+  #footer-m {
+    background-color: var(--primary-color);
+    display: block;
+  }
   .footer-text-box {
     margin: 0;
   }
@@ -578,5 +604,36 @@ body {
 
   .hours-p {
     margin-left: 10px;
+  }
+  .footer-m-box {
+    display: flex;
+  }
+
+  .footer-p1 {
+    font-size: 16px;
+  }
+
+  .footer-p2 {
+    font-size: 14px;
+  }
+
+  .address-m {
+    margin-top: 20px;
+  }
+
+  .contact-p {
+    font-size: 16px;
+  }
+
+  .hours-h {
+    font-size: 18px;
+  }
+
+  .hours-p {
+    font-size: 16px;
+  }
+  .hours-box {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
