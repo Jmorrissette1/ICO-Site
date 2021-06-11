@@ -84,8 +84,8 @@ body {
   margin-bottom: 0;
 }
 
-#hero-section {
-  background-image: url(https://di-uploads-pod1.dealerinspire.com/haselwoodautogroup/uploads/2021/06/Hero-D.png);
+.hero-section {
+  background-image: url(Hero-D.png);
   width: 100vw;
   height: 34em;
   background-position: center;
@@ -383,7 +383,7 @@ body {
   }
 
   #hero-section {
-    background-image: url(https://di-uploads-pod1.dealerinspire.com/haselwoodautogroup/uploads/2021/06/Hero-T.png);
+    background-image: url(Hero-T.png);
     height: 20em;
   }
 
