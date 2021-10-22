@@ -58,7 +58,8 @@ body {
 
 .store-logo {
   width: 200px;
-
+  margin-bottom: 20px;
+  margin-top: 20px;
   margin-left: 100px;
 }
 
@@ -183,8 +184,8 @@ body {
 }
 .footer-text-box {
   margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .footer-p1 {
   font-weight: 700;
@@ -201,6 +202,10 @@ body {
   margin-bottom: 0px;
   margin-left: 50px;
   font-size: 20px;
+}
+
+.footer-box {
+  margin-left: 150px;
 }
 
 .offer-box-h1 {
@@ -265,7 +270,7 @@ body {
   }
 
   .store-logo {
-    margin-left: -180px;
+    margin-left: -70px;
   }
   .hours-box {
     margin-left: 360px;
@@ -450,6 +455,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .hero-section {
+    display: none;
+  }
   #hero-section-m {
     display: block;
   }
